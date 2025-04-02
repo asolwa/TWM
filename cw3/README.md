@@ -46,7 +46,8 @@ Wynik jest identyczny do tego uzyskanego w zadaniu 1. Oznacza to, że regularyza
 ## Zadanie 2.1
 Do wyboru wartości k dla k-cross-validation przetestowano zachowanie algorytmu dla różnych wartości k w zakresie <2, 20>. Na podstawie uzyskanego wykresu, wartość k = 7 zapewniała najwyższą skuteczność.
 
-## Zadanie 2.2 Code
+## Zadanie 2.2
+[Code](scripts/Zad2.mlx)
 
 ## Zadanie 2.3
 Znalezione najlepsze parametry:
