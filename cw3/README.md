@@ -54,9 +54,13 @@ Dla uzyskanego wykresu wartosc 7. dawala najwieksza skutecznosc
 ## Zadanie 2.2 Code
 
 ## Zadanie 2.3
+Znalezione najlepsze parametry:
+* 0.7 gamma
+* 133.367 c
+Dla wskazanych parametrów skuteczność wynosiła 90.5%.
+
 ![img1](plot.png)
 ![img2](plotlabal.png)
-
 
 | C \ Gamma | 0.1   | 0.2   | 0.3   | 0.4   | 0.5   | 0.6   | 0.7   | 0.8   | 0.9   | 1.0   |
 |--------|-------|-------|-------|-------|-------|-------|-------|-------|-------|-------|
