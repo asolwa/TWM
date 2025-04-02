@@ -1,55 +1,50 @@
 # Part 1
 
 ## Zad 1
-Accuracy train: 100.000000
-Accuracy test: 87.777778
+* Accuracy train: 100.000000
+* Accuracy test: 87.777778
 
-Skutecznosc na zbiorze terningowym moze sugerowac wystoapienie overfitiingu.
+Skuteczność na zbiorze treningowym może wskazywać na wystąpienie overfittingu.
 
 ## Zad 2
-Funckja kosztu maleje wraz ze wzrostem liczby cech, az do momentu liczba cech == 14. nastpnie koszt dla zbioru walidacyjnego rosnie znaczaco, zas dla terningowego rosnie wciaz.
-Jest to zgodne z przewydiwyaniami, Kolejen zwiekszanie cech, od 14, powoduje ze model uczy sie zapamietywac konkretne elementy zbioru treningowego, zamiast jakies ogolniejsze cechy podobne dla danej klasy opbiektow.
+Funkcja kosztu maleje wraz ze wzrostem liczby cech, aż do momentu, gdy liczba cech wynosi 14. Następnie koszt dla zbioru walidacyjnego znacząco rośnie, podczas gdy dla zbioru treningowego nadal maleje.
 
-Na wykresioe skutecznosci rowniez wydac spadek skutecznosci dla liczby cech bedaceh wiekeszj niz 15.
+Jest to zgodne z przewidywaniami – dalsze zwiększanie liczby cech powyżej 14 powoduje, że model zaczyna zapamiętywać konkretne przykłady ze zbioru treningowego zamiast uczyć się ogólnych cech charakterystycznych dla danej klasy obiektów.
 
-Ze wzgledu na to, liczba cech 14 wydaje sie optymalna
+Na wykresie skuteczności również widać jej spadek przy liczbie cech większej niż 15.
+
+Z tego powodu liczba cech równa 14 wydaje się optymalnym wyborem.
 
 ## Zad 3
 
-Zwiekszenie wilosci zbioru wykazuje tendencje wzrostowe skutecznosci i malejace dla kosztu.
-Lecz z racji na spore zmiany skutecznosci dla zbioru terningowego, moze sugerowac ze dostrojenie modelu w poprzednich krokach spowodowalo ovefitting.
+Zwiększenie rozmiaru zbioru wykazuje tendencję wzrostową skuteczności oraz spadkową dla kosztu.
+Jednak ze względu na duże wahania skuteczności na zbiorze treningowym może to sugerować, że wcześniejsze dostrojenie modelu doprowadziło do overfittingu.
 
 ## Zad 4
 
-Widac ponownie dendencje do overfittingu/przeluczenia. Do pewnego kroku model sie uczy. Lecz do pewnej iteracji, koszt zaczyna sie zwiekszac dla zbioru walidacyjnego.
-Sugeruje to iz model zaczyna zapamietywac konkretne zdjecia w zbiorze testowym, nie zas uczyc sie generalnych cech klasyfikujacych dana klase obiektow.
+Ponownie można zauważyć tendencję do overfittingu. Do pewnego momentu model skutecznie się uczy, jednak po określonej liczbie iteracji koszt dla zbioru walidacyjnego zaczyna rosnąć.
 
-Na podstawie wykresow wartosc iter_sel=20 zostala wybrana.
-Dla takiej warotsci, model osiaga niska wartosc dla zbioru testowego, ale nie najnizszcza, gdyz ciage zwiekszanie makymalnej iteracji wciaz zmniejsza blad dla zbioru testowego.
+Sugeruje to, że model zaczyna zapamiętywać konkretne obrazy w zbiorze treningowym zamiast uczyć się ogólnych cech pozwalających na poprawną klasyfikację obiektów.
+
+Na podstawie wykresów wybrano wartość `iter_sel = 20`. Przy tej wartości model osiąga niski koszt dla zbioru testowego, choć nie najniższy, ponieważ dalsze zwiększanie maksymalnej liczby iteracji wciąż zmniejsza błąd na zbiorze testowym.
 
 ## Zad 5
-lambda = 0.0138
-Skutecznosc 89.05
+* λ = 0.0138
+* Skutecznosc 89.05
 
-<!-- lambda = 0.001 -->
-<!-- Skutecznosc 89.05 -->
-
-Siatka byla kulkukrotnie przyblizana na zakresie zawierajacym maximum skutecznosci dla zbioru walidacyjnego.
-Po 3 iteracja znalezion punkt lambda = 0.0138, dla ktorego sktuczenosci wynosila 89.52
+Siatka była kilkukrotnie zagęszczana w zakresie obejmującym maksimum skuteczności dla zbioru walidacyjnego.
+Po trzech iteracjach znaleziono punkt λ = 0.0138, dla którego skuteczność wyniosła 89,52%.
 
 ## Zad 6
-Accuracy train: 93.333333
-Accuracy test: 87.777778
+* Accuracy train: 93.333333
+* Accuracy test: 87.777778
 
-Wynik jest identyczny do wyniku uzyskanego w zadaniu 1.
-Oznacza to iz regularyzacja nie poprawila wynikow, oznacza to iz model nie byl przeluczony, co uzycie regularyzacji mialo wykazac.
+Wynik jest identyczny do tego uzyskanego w zadaniu 1. Oznacza to, że regularyzacja nie poprawiła wyników, co sugeruje, że model nie był przeuczony, a zatem zastosowanie regularyzacji nie miało wpływu na jego działanie.
 
-
-# Part 2
+# Część 2
 
 ## Zadanie 2.1
-Do wyboru k, dla k-cross-validacji, przetestowano zachowanie algorytmu, dla roznych warotsci k <2, 20>.
-Dla uzyskanego wykresu wartosc 7. dawala najwieksza skutecznosc
+Do wyboru wartości k dla k-cross-validation przetestowano zachowanie algorytmu dla różnych wartości k w zakresie <2, 20>. Na podstawie uzyskanego wykresu, wartość k = 7 zapewniała najwyższą skuteczność.
 
 ## Zadanie 2.2 Code
 
@@ -57,6 +52,7 @@ Dla uzyskanego wykresu wartosc 7. dawala najwieksza skutecznosc
 Znalezione najlepsze parametry:
 * 0.7 gamma
 * 133.367 c
+
 Dla wskazanych parametrów skuteczność wynosiła 90.5%.
 
 ![img1](plot.png)
@@ -77,6 +73,7 @@ Dla wskazanych parametrów skuteczność wynosiła 90.5%.
 
 
 ## Zadanie 3
-best_c = 144.7625
-best_gamma = 0.1362
-best_cv_accuracy = 0.9095
+Najlepsze parametry zostały znalezione przy użyciu narzędzi do przeszukiwania przestrzeni parametrów:
+* c = 144.7625
+* gamma = 0.1362
+* cv_accuracy = 0.9095
