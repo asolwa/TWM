@@ -15,8 +15,8 @@ Na wykresie skuteczności również widać jej spadek przy liczbie cech większe
 
 Z tego powodu liczba cech równa 14 wydaje się optymalnym wyborem.
 
-![img1](task2cost.png)
-![img1](task2accuracy.png)
+<img src="task2cost.png" width="45%" />
+<img src="task2accuracy.png" width="45%" />
 
 ## Zad 3
 
@@ -38,11 +38,11 @@ Na podstawie wykresów wybrano wartość `iter_sel = 20`. Przy tej wartości mod
 ![img1](task4accuracy.png)
 
 ## Zad 5
-* λ = 0.0138
+* lambda = 0.0138
 * Skutecznosc 89.05
 
 Siatka była kilkukrotnie zagęszczana w zakresie obejmującym maksimum skuteczności dla zbioru walidacyjnego.
-Po trzech iteracjach znaleziono punkt λ = 0.0138, dla którego skuteczność wyniosła 89,52%.
+Po trzech iteracjach znaleziono punkt lambda = 0.0138, dla którego skuteczność wyniosła 89,52%.
 
 ![img1](task5cost1.png)
 ![img1](task5acc1.png)
