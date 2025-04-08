@@ -70,12 +70,10 @@ Do wyboru wartości k dla k-cross-validation przetestowano zachowanie algorytmu 
 
 ## Zadanie 2.3
 Znalezione najlepsze parametry:
-* 0.215 gamma
-* 100 c
-* cv accuracy 0.9095
-* test acc 0.9
-
-Dla wskazanych parametrów skuteczność wynosiła 90.5%.
+* gamma = 0.215
+* c = 100
+* cv accuracy = 0.9095
+* test accuracy 0.9
 
 ![img1](gamma1.png)
 ![img1](gamma2.png)
@@ -100,6 +98,6 @@ Dla wskazanych parametrów skuteczność wynosiła 90.5%.
 Najlepsze parametry zostały znalezione przy użyciu narzędzi do przeszukiwania przestrzeni parametrów:
 * c = 144.7625
 * gamma = 0.1362
-* cv_accuracy = 0.9095
+* cv accuracy = 0.9095
 * train accuracy = 1.0
-* test acc = 0.911111
+* test accuracy = 0.911111
