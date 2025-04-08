@@ -72,7 +72,7 @@ Do wyboru wartości k dla k-cross-validation przetestowano zachowanie algorytmu 
 
 ![img1](task3.1cv.png)
 
-## Zadanie 2.2 Code
+## Zadanie 2.2
 [Link do pliku przeszukującego przestrzeń parametrów](https://github.com/asolwa/TWM/blob/master/cw3/scripts/Zad2.mlx)
 ## Zadanie 2.3
 Znalezione najlepsze parametry:
