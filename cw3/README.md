@@ -15,8 +15,8 @@ Na wykresie skuteczności również widać jej spadek przy liczbie cech większe
 
 Z tego powodu liczba cech równa 14 wydaje się optymalnym wyborem.
 
-<img src="task2cost.png" width="45%" />
-<img src="task2accuracy.png" width="45%" />
+![img1](task2cost.png){ width=45% }
+![img1](task2accuracy.png){ width=45% }
 
 ## Zad 3
 
