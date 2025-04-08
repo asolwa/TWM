@@ -45,13 +45,13 @@ Siatka była kilkukrotnie zagęszczana w zakresie obejmującym maksimum skuteczn
 Po trzech iteracjach znaleziono punkt λ = 0.0138, dla którego skuteczność wyniosła 89,52%.
 
 ![img1](task5cost1.png)
-![img1](task5accuracy1.png)
+![img1](task5acc1.png)
 
 ![img1](task5cost2.png)
-![img1](task5accuracy2.png)
+![img1](task5acc2.png)
 
-![img1](task5accuracy3.png)
 ![img1](task5cost3.png)
+![img1](task5acc3.png)
 
 ## Zad 6
 * Accuracy train: 93.333333
