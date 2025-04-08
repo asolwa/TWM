@@ -81,7 +81,9 @@ Znalezione najlepsze parametry:
 * cv accuracy = 0.9095
 * test accuracy 0.9
 
-gamma1 | gamma2 | gamma3
+gamma=logspace(-4, 1, 10); | gamma2=logspace(-2, 1, 10); | gamma=logspace(-1, 0, 10)
+:-------------------------:|:-------------------------:|:-------------------------:
+c=logspace(-1, 2, 10) | c=logspace(-1, 2, 10) | c=logspace(-1, 2, 10)
 :-------------------------:|:-------------------------:|:-------------------------:
 ![img1](gamma1.png) | ![img1](gamma2.png) | ![img1](gamma3.png)
 
