@@ -24,7 +24,7 @@ Zwiększenie rozmiaru zbioru wykazuje tendencję wzrostową skuteczności oraz s
 Jednak ze względu na duże wahania skuteczności na zbiorze treningowym może to sugerować, że wcześniejsze dostrojenie modelu doprowadziło do overfittingu.
 
 ![img1](task3cost.png)
-![img1](task3accuracy.png)
+![img1](tesk3accuracy.png)
 
 ## Zad 4
 
