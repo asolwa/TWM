@@ -15,7 +15,7 @@ Na wykresie skuteczności również widać jej spadek przy liczbie cech większe
 
 Z tego powodu liczba cech równa 14 wydaje się optymalnym wyborem.
 
-test|test2
+Koszt | Skutecznosc
 :-------------------------:|:-------------------------:
 ![img1](task2cost.png) | ![img1](task2accuracy.png)
 
@@ -24,8 +24,9 @@ test|test2
 Zwiększenie rozmiaru zbioru wykazuje tendencję wzrostową skuteczności oraz spadkową dla kosztu.
 Jednak ze względu na duże wahania skuteczności na zbiorze treningowym może to sugerować, że wcześniejsze dostrojenie modelu doprowadziło do overfittingu.
 
-![img1](task3cost.png)
-![img1](tesk3accuracy.png)
+Koszt | Skutecznosc
+:-------------------------:|:-------------------------:
+![img1](task3cost.png) | ![img1](tesk3accuracy.png)
 
 ## Zad 4
 
@@ -35,8 +36,9 @@ Sugeruje to, że model zaczyna zapamiętywać konkretne obrazy w zbiorze trening
 
 Na podstawie wykresów wybrano wartość `iter_sel = 20`. Przy tej wartości model osiąga niski koszt dla zbioru testowego, choć nie najniższy, ponieważ dalsze zwiększanie maksymalnej liczby iteracji wciąż zmniejsza błąd na zbiorze testowym.
 
-![img1](task4cost.png)
-![img1](task4accuracy.png)
+Koszt | Skutecznosc
+:-------------------------:|:-------------------------:
+![img1](task4cost.png) | ![img1](task4accuracy.png)
 
 ## Zad 5
 * lambda = 0.0138
@@ -45,14 +47,17 @@ Na podstawie wykresów wybrano wartość `iter_sel = 20`. Przy tej wartości mod
 Siatka była kilkukrotnie zagęszczana w zakresie obejmującym maksimum skuteczności dla zbioru walidacyjnego.
 Po trzech iteracjach znaleziono punkt lambda = 0.0138, dla którego skuteczność wyniosła 89,52%.
 
-![img1](task5cost1.png)
-![img1](task5acc1.png)
+Koszt | Skutecznosc
+:-------------------------:|:-------------------------:
+![img1](task5cost1.png) | ![img1](task5acc1.png)
 
-![img1](task5cost2.png)
-![img1](task5acc2.png)
+Koszt | Skutecznosc
+:-------------------------:|:-------------------------:
+![img1](task5cost2.png) | ![img1](task5acc2.png)
 
-![img1](task5cost3.png)
-![img1](task5acc3.png)
+Koszt | Skutecznosc
+:-------------------------:|:-------------------------:
+![img1](task5cost3.png) | ![img1](task5acc3.png)
 
 ## Zad 6
 * Accuracy train: 93.333333
@@ -76,9 +81,9 @@ Znalezione najlepsze parametry:
 * cv accuracy = 0.9095
 * test accuracy 0.9
 
-![img1](gamma1.png)
-![img1](gamma2.png)
-![img1](gamma3.png)
+gamma1 | gamma2 | gamma3
+:-------------------------:|:-------------------------:|:-------------------------:
+![img1](gamma1.png) | ![img1](gamma2.png) | ![img1](gamma3.png)
 
 
 | C \ Gamma | 0.1   | 0.1292 | 0.16668 | 0.2154 | 0.2783 | 0.3594 | 0.4642 | 0.5995 | 0.7743 | 1.0   |
